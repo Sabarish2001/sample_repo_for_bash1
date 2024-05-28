@@ -19,6 +19,7 @@ function odd_or_even
 		fi
 		((start++))
 	done
+	echo "-------------------------------------------------------------"
 	echo "Number of even numbers between $start and $end = $even"
 	echo "Number of odd numbers between $start and $end = $odd"
 }
